@@ -1,0 +1,37 @@
+aid: presto-automation
+name: Presto Automation
+description: >-
+  Presto Automation (now operating as Presto Phoenix) is a voice AI and
+  automation provider for restaurant drive-thrus, offering Presto Voice, an
+  AI-driven drive-thru ordering assistant that automates order taking with
+  automated speech recognition, text-to-speech, and human-in-the-loop
+  supervision. Presto integrates into existing drive-thru hardware and POS
+  platforms through partnerships with vendors such as Oracle, PAR, and Qu, and
+  serves quick-service restaurant chains nationwide. Presto does not publish a
+  public or partner-facing developer API or documentation portal; integrations
+  are arranged directly with the company, so no API products are listed here.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Restaurant
+  - Voice AI
+  - Drive-Thru
+  - Automation
+  - Quick Service
+apis: []
+url: https://raw.githubusercontent.com/api-evangelist/presto-automation/refs/heads/main/apis.yml
+created: '2026-06-02'
+modified: '2026-06-02'
+specificationVersion: '0.19'
+common:
+  - type: Website
+    url: https://presto.com/
+  - type: Blog
+    url: https://presto.com/blogs/
+  - type: Support
+    url: https://presto.com/contact-us/
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/presto-ai
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

@@ -32,6 +32,8 @@ created: '2026-06-02'
 modified: '2026-06-03'
 specificationVersion: '0.19'
 common:
+  - type: DomainSecurity
+    url: security/presto-automation-domain-security.yml
   - type: Website
     url: https://presto.com/
   - type: Blog

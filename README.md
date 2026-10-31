@@ -1,4 +1,4 @@
-# Presto Automation (presto-automation)
+# Presto Automation
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,74 +66,79 @@
 
 Presto Automation (now operating as Presto Phoenix, Inc.) is a Silicon Valley-based voice AI and automation provider for restaurant drive-thrus and quick-service restaurant (QSR) chains. Its flagship product, Presto Voice, is an AI-driven drive-thru ordering assistant that automates order taking using in-house Natural Language Understanding (NLU) and large language models combined with automated speech recognition (ASR) and text-to-speech (TTS), with optional human-in-the-loop supervision. Presto offers a full spectrum of operating modes (supervised AI, pure AI, agent-led, and unsupervised AI) and has expanded into AI-native phone ordering for QSRs. Presto Voice integrates into existing drive-thru hardware, confirmation boards, headsets, and POS platforms through partnerships with vendors such as Oracle, PAR, and Qu, and draws on AI partnerships with OpenAI and ElevenLabs. Presto does not publish a public or partner-facing developer API, SDK, or documentation portal; integrations are arranged directly with the company through vendor and POS partnerships, so no API products are listed here.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/presto-automation/refs/heads/main/apis.yml)
+**Areas:** Restaurant · Voice AI · Drive-Thru · Automation · Quick Service · Phone Ordering · Speech Recognition
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
+## Presto Automation on APIs.io
 
-## Tags:
+Everything profiled for Presto Automation is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/presto-automation/](https://apis.io/providers/presto-automation/)** — or go straight to one of the APIs or properties below.
 
- - Restaurant, Voice AI, Drive-Thru, Automation, Quick Service, Phone Ordering, Speech Recognition
+### Published properties
 
-## Timestamps
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-- **Created:** 2026-06-02
-- **Modified:** 2026-06-03
+#### Security (1)
 
-## Common Properties
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Presto Automation Domain Security](https://apis.io/security/presto-automation/presto-automation-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://presto.com/)
-- [Blog](https://presto.com/blogs/)
 - [Support](https://presto.com/contact-us/)
-- [LinkedIn](https://www.linkedin.com/company/presto-ai)
+- [Blog](https://presto.com/blogs/)
 
-## Features
+## API Evangelist rating
 
-| Name | Description |
-|------|-------------|
-| AI Drive-Thru Order Taking | Automated, 24/7 drive-thru order taking using in-house NLU and large language models with ASR and TTS for natural, conversational interactions. |
-| Human-in-the-Loop Supervision | A full spectrum of operating modes including supervised AI, pure AI, agent-led, and unsupervised AI, where remote agents oversee or intervene as needed. |
-| Context-Specific Upselling | Preference-based, time-based, and modification upselling that makes significantly more upsell attempts than human staff to increase order value. |
-| Multi-Language Ordering | Support for ordering in multiple languages to serve diverse customer bases at the drive-thru. |
-| Menu Unification | A proprietary system that consolidates disparate QSR menu data into a structured, centralized format with brand-level multi-location management. |
-| AI-Native Phone Ordering | A phone ordering business unit that applies Presto's Voice AI to take orders over the phone for quick-service restaurants. |
+**Kin Score 4.4** — minimal · rubric 0.24.0 · scored 2026-10-17
 
-## Use Cases
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 0.0 |
 
-| Name | Description |
-|------|-------------|
-| Drive-Thru Labor Savings | Offloading order taking to Voice AI to free staff for food preparation and service, saving labor hours per store per day. |
-| Revenue Growth Through Upselling | Driving incremental revenue through consistent, context-aware upsell and add-on recommendations on every order. |
-| Order Accuracy And Speed | Improving order accuracy and reducing wait times in noisy drive-thru environments. |
-| Phone Order Automation | Automating inbound phone orders for QSRs to reduce missed calls and staffing pressure. |
+**Agent readiness 0.0** — human-only
 
-## Integrations
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-| Name | Description |
-|------|-------------|
-| OpenAI | Leverages OpenAI GPT models to enhance the naturalness of drive-thru Voice AI conversations. |
-| ElevenLabs | Partnership to deliver realistic, lifelike text-to-speech voices for restaurant drive-thru Voice AI. |
-| POS And Drive-Thru Hardware | Integrates with existing POS platforms, confirmation boards, drive-thru speakers, and headset systems for rapid deployment. |
+**Regulatory alignment 5.9** — AI & Biometrics
 
-## Partners
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/presto-automation/](https://apis.io/providers/presto-automation/).
 
-| Name | Description |
-|------|-------------|
-| Oracle | POS platform partner for Presto Voice drive-thru integration. |
-| PAR | POS platform partner for Presto Voice drive-thru integration. |
-| Qu | POS platform partner for Presto Voice drive-thru integration. |
+## How this profile is made
 
-## Customers
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-| Name | Description |
-|------|-------------|
-| Checkers | QSR brand deploying Presto Voice at drive-thru locations. |
-| Carl's Jr. | QSR brand deploying Presto Voice at drive-thru locations. |
-| Hardee's | QSR brand deploying Presto Voice at drive-thru locations. |
-| Wienerschnitzel | QSR brand deploying Presto Voice at drive-thru locations. |
-| Dairy Queen | QSR brand deploying Presto Voice at drive-thru locations. |
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Presto Automation: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-## Maintainers
+## Open an issue
 
-**FN:** Kin Lane
-
-**Email:** kin@apievangelist.com
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/presto-automation/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
